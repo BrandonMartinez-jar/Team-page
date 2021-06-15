@@ -125,13 +125,15 @@ body{
         box-shadow: none;
     }
     .container .title,
+    .container .text{
+        grid-column: 2/5;
+    }
     .container .card-1,
     .container .card-3,
     .container .card-5
     {
         grid-column: 2/3;
     }
-    .container .text,
     .container .card-2,
     .container .card-4,
     .container .card-6{
