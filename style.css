@@ -120,9 +120,8 @@ body{
     .container{
         display: grid;
         width: 100%;
-        grid-template-columns: 1fr 300px 1fr 300px 1fr;
+        grid-template-columns: 50px 300px 20px 300px 50px;
         grid-template-rows: repeat(15, 116px);
-        box-shadow: none;
     }
     .container .title,
     .container .text{
